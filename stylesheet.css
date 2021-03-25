@@ -2,14 +2,19 @@
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+
 }
+
 
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(115, 100, 129, 0.9);
   position: fixed;
+  top:0;
   z-index: 10;
+
+  
 }
 
 
@@ -19,21 +24,42 @@ header {
 
 
 .logo{
-    float:left;
-    width:100px;
+  width: 100px;
+  margin-top: 20px;
+  
 }
 
 .header-right{
-    float: right;
-    /*background-color: rgba(255, 255, 255, 0.3)*/;
-  	transition: all 0.5s;
+  float: right;
+  transition: all 0.5s;
 }
 
-.header-right li {
+
+a{
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color:rgba(70, 57, 57, 0.842);
+}
+
+.header-right a {
   line-height: 65px;
-  padding: 0px 25px;
-  /*color: white;*/
+  padding: 0 25px;
+  color: white;
   display: block;
-  float:left;
-  list-style: none;
+  float: left;
+}
+
+
+
+
+.top-wrapper {
+  padding: 200px  100px ;
+  background-image: url(../d06/background.jpg);
+  background-size: cover;
+  color: white;
+  width: 100%;
+  text-align: center;
 }
