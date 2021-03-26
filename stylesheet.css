@@ -44,6 +44,11 @@ a:hover{
   background-color:rgba(70, 57, 57, 0.842);
 }
 
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
