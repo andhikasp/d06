@@ -1,7 +1,5 @@
-
 .container {
-  max-width: 1170px;
-  width: 100%;
+  width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -9,34 +7,34 @@
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(176, 196, 222);
-  position :fixed;
-  top: 0;
-  left:0;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 10;
+}
 
-}
-.logo {
-  width: 124px;
-  margin-top: 10px;
-  margin-bottom:10px;
-}
+
 .header-left {
   float: left;
 }
 
-.header-right {
-  float: right;
-  margin-right: -25px;
-} 
 
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: black;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+.logo{
+    float:left;
+    width:100px;
 }
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+
+.header-right{
+    float: right;
+    /*background-color: rgba(255, 255, 255, 0.3)*/;
+  	transition: all 0.5s;
+}
+
+.header-right li {
+  line-height: 65px;
+  padding: 0px 25px;
+  /*color: white;*/
+  display: block;
+  float:left;
+  list-style: none;
+  
 }
