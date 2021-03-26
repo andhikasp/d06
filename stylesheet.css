@@ -4,11 +4,14 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Avenir Next";
 }
 
 a {
   text-decoration: none;
+}
+li {
+  list-style: none;
 }
 
 .container {
@@ -19,6 +22,9 @@ a {
 }
 .header-left {
   float: left;
+}
+.header-left h3 {
+  font-size: 30px;
 }
 
 .header-right a:hover {
@@ -87,7 +93,6 @@ header {
   background-size: cover;
   color: black;
   text-align: center;
-  id: "about";
 }
 
 .heading h1 {
@@ -147,4 +152,12 @@ header {
 .gambar-profile3 {
   width: 200px;
   border-radius: 5% !important;
+}
+
+.lesson-wrapper2 {
+  padding: 80px 0 0px 0px;
+  background-color: white;
+  background-size: cover;
+  color: black;
+  text-align: center;
 }
