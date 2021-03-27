@@ -134,6 +134,11 @@ header {
   border-radius: 5% !important;
 }
 
+.gambar-profile3{
+  width: 100px;
+  border-radius: 1% !important;
+}
+
 .project {
   float: left;
   width: 25%;
@@ -150,7 +155,8 @@ header {
 }
 
 .gambar-profile3 {
-  width: 200px;
+  width: 100px;
+  height: 150px;
   border-radius: 5% !important;
 }
 
