@@ -168,18 +168,41 @@ header {
   text-align: center;
 }
 
-
-footer img {
+.footer-logo img {
   width: 90px;
 }
 
-footer p {
+.footer-logo p {
   color: #b3aeb5;
   font-size: 12px;
 }
 
 footer {
   padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-list {
+   text-align: center;
+   margin-top: -100px
+}
+
+.footer-list li {
+   padding-bottom:10px; 
+   margin-left: -25px;
+   display: block;
+}
+
+.footer-list img {
+  width:20px;
+  height:15px;
 }
 
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
