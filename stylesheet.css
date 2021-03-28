@@ -23,8 +23,9 @@ li {
 .header-left {
   float: left;
 }
-.header-left h3 {
+.header-left h1 {
   font-size: 30px;
+  text-align: center;
 }
 
 .header-right a:hover {
@@ -86,6 +87,7 @@ header {
 .margin-animasi {
   margin-top: -10px;
 }
+
 
 .lesson-wrapper {
   padding: 80px 0 0px 0px;
@@ -198,11 +200,13 @@ footer {
   height:15px;
 }
 
-
 .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
-  padding: 21px 0;
+  padding: 21px 21px;
+  /* Gantikan property display ke none */
   display: none;
+  visibility: hidden;
 }
+

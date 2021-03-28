@@ -12,10 +12,15 @@
   .heading h2 {
     font-size: 20px;
   }
+
+
+
 }
 
  /*Untuk Smartphone*/ 
 @media all and (max-width: 670px) {
+
+
   .lesson {
     width: 100%;
   }
@@ -30,13 +35,16 @@
   }
   
  /*  Tambahkan CSS untuk header-right */
- .header-right{
+
+
+  .header-right{
     display:none;
   }
   
   /* Tambahkan CSS untuk menu-icon */
   .menu-icon{
     display:block;
+    visibility: visible;
   }
   
   .top-wrapper h1 {
@@ -47,5 +55,13 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  footer {
+    text-align: left;
+  }
+
+  .footer-list{
+    text-align: right;
   }
 }
