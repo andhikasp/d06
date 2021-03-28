@@ -177,6 +177,7 @@ header {
 .footer-logo p {
   color: #b3aeb5;
   font-size: 12px;
+  text-align: left;
 }
 
 footer {
