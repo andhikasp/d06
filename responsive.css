@@ -64,4 +64,13 @@
   .footer-list{
     text-align: right;
   }
+
+  .gambar-profile h1,p{
+    text-align: center;
+  }
+
+  .container h1{
+    text-align: center;
+  }
+  
 }
