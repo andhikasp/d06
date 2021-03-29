@@ -84,10 +84,13 @@ header {
   opacity: 0.7;
 }
 
+.top-wrapper a {
+  opacity: 0.7;
+}
+
 .margin-animasi {
   margin-top: -10px;
 }
-
 
 .lesson-wrapper {
   padding: 80px 0 0px 0px;
@@ -132,13 +135,9 @@ header {
 }
 
 .gambar-profile2 {
-  width: 100px;
+  width: 120px;
+  height: 150px;
   border-radius: 5% !important;
-}
-
-.gambar-profile3{
-  width: 100px;
-  border-radius: 1% !important;
 }
 
 .project {
@@ -157,8 +156,6 @@ header {
 }
 
 .gambar-profile3 {
-  width: 100px;
-  height: 150px;
   border-radius: 5% !important;
 }
 
@@ -186,19 +183,19 @@ footer {
 }
 
 .footer-list {
-   text-align: right;
-   margin-top: -100px
+  text-align: right;
+  margin-top: -100px;
 }
 
 .footer-list li {
-   padding-bottom:10px; 
-   margin-left: -25px;
-   display: block;
+  padding-bottom: 10px;
+  margin-left: -25px;
+  display: block;
 }
 
 .footer-list img {
-  width:20px;
-  height:15px;
+  width: 20px;
+  height: 15px;
 }
 
 .menu-icon {
@@ -210,4 +207,3 @@ footer {
   display: none;
   visibility: hidden;
 }
-
